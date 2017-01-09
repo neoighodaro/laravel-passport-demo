@@ -8,8 +8,7 @@ try {
     $response = $client->post('http://todos.dev/oauth/token', [
         'form_params' => [
             'client_id' => 2,
-            // The secret generated when you ran: php artisan passport:install
-            'client_secret' => 'fx5I3bspHpnuqfHFtvdQuppAzdXC7nJclMi2ESXj',
+            'client_secret' => 'PASTE_CLIENT_SECRET_HERE',
             'grant_type' => 'password',
             'username' => 'johndoe@scotch.io',
             'password' => 'secret',
